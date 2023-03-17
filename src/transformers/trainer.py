@@ -1474,7 +1474,7 @@ class Trainer:
                         device_id=self.args.device,
                         backward_prefetch=self.backward_prefetch,
                         forward_prefetch=self.forword_prefetch,
-                        limit_all_gathers=self.limit_all_gathers,
+                        #limit_all_gathers=self.limit_all_gathers,
                     )
             else:
                 try:
